@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: devqa
+  vmImage: rhel-pool
 
 steps:
 - script: echo Hello, world!
