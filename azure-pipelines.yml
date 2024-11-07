@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: rhel-pool
+pool: rhel-pool
 
 steps:
 - script: echo Hello, world!
